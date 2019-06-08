@@ -42,6 +42,6 @@ function destructivelyRemoveElementFromEndOfArray (array) {
 }
 
 function removeElementFromEndOfArray (array) {
-  var nowArr = array.filter(a => a !== array[array.length - 1])
+  var nowArr = array.filter(a => a !== array[array.length - 1]);
   return nowArr;
 }
