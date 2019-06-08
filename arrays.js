@@ -40,3 +40,8 @@ function destructivelyRemoveElementFromEndOfArray (array) {
   niwArr.pop(array);
   return niwArr;
 }
+
+function removeElementFromEndOfArray (array) {
+  array.pop(array);
+  return array;
+}
