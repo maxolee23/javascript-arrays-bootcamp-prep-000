@@ -31,5 +31,6 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return nuArr;
 } 
 function removeElementFromBeginningOfArray (array) {
- return .shift(array[0]);
+  array.shift(array[0]);
+  return array;
 }
