@@ -30,3 +30,6 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   nuArr.shift(nuArr[0]);
   return nuArr;
 } 
+function removeElementFromBeginningOfArray (array) {
+ return .shift(array[0]);
+}
