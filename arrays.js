@@ -31,8 +31,8 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return nuArr;
 } 
 function removeElementFromBeginningOfArray (array) {
-  array.shift(array[0]);
-  return array
+  var nilArr = array.shift(nilArr[0]);
+  return nilArr;
 }
 
 function destructivelyRemoveElementFromEndOfArray (array) {
